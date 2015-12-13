@@ -26,11 +26,9 @@ id wsl_initWithCoder(id self, SEL _cmd, NSCoder *coder) {
     
     id obj = [self wsl_initWithCoder:coder];
     
-    BOOL animates;
+    BOOL animates = YES;
     if([coder containsValueForKey:@"UIAnimates"]) {
         animates = [coder decodeBoolForKey:@"UIAnimates"];
-    } else {
-        animates = YES;
     }
     
     setUIAnimates(self, animates);
