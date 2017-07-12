@@ -2,7 +2,7 @@
 cancel segue animates
 
 
-make this  compatible ios9later
+make this ios9later
 
 ![image](https://github.com/welcommand/WELSegueAnimatesHelper/blob/master/demoImg.png)
 
